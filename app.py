@@ -11,7 +11,7 @@ oidc = OpenIDConnect(app)
 
 @app.route('/')
 def hello_world():
-    return '<h1>Hello, World ! - Pyflask Demo</h1>'
+    return '<h1>Hello, World ! How are you today? - Pyflask Demo</h1>'
 
 @app.route('/version')
 def get_version():
