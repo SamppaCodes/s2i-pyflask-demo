@@ -1,13 +1,6 @@
 from flask import Flask, jsonify
-from flask_oidc import OpenIDConnect
 
 app = Flask(__name__)
-
-# Configure the OpenIDConnect extension
-app.config['OIDC_CLIENT_SECRETS'] = 'client_secrets.json'
-app.config['OIDC_COOKIE_SECURE'] = False
-app.config['OIDC_SCOPES'] = ['openid', 'email', 'profile']
-oidc = OpenIDConnect(app)
 
 @app.route('/')
 def hello_world():
