@@ -1,0 +1,19 @@
+{
+    "selected": [
+      "donjayamanne.githistory",
+      "vscode.github-authentication",
+      "github.vscode-pull-request-github"
+    ]
+  }
+
+// [
+//     {
+//         "id": "donjayamanne.githistory"
+//     },
+//     {
+//         "id": "vscode.github-authentication"
+//     },
+//     {
+//         "id": "github.vscode-pull-request-github"
+//     }
+// ]
